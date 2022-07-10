@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(255, 255, 255);
+    color: rgb(138, 18, 18);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(255, 255, 255);            
+    color:dimgray;
+}
+
+#tituloinicio{
+    color: rgb(255, 0, 170);
+    
+}
+
+#secinicio{
+    background-color:rgb(133, 148, 148);
+    color: rgb(255, 255, 255);
+}
+
+.sdotituloinicio{
+    color: rgb(255, 0, 170);
+}
+
+.linksecciones{
+    color: rgb(255, 0, 170);
+}
+
+.tercersubtituloinicio{
+    color: rgb(252, 242, 227);
+
+}
+
+h3{
+    color: darkorange;
+}
+    
+footer{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
