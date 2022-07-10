@@ -1,0 +1,45 @@
+header
+{
+    background-color: #FF00E4;
+
+}
+nav
+{
+    background-color: #FF00E4;
+
+
+
+}
+
+
+
+section
+{
+    background-color: #ffeded;
+    grid-column: 1/4;
+}
+
+
+aside
+{
+    grid-column: 4/5;
+    background-color: RGB(29 161 242);
+    text-align: center;
+
+
+}
+
+
+
+
+footer
+{
+    background-color: #FF00E4;
+
+}
+
+main
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
