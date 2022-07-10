@@ -7,10 +7,7 @@ nav
 {
     background-color: #FF00E4;
 
-
-
 }
-
 
 
 section
@@ -19,18 +16,13 @@ section
     grid-column: 1/4;
 }
 
-
 aside
 {
     grid-column: 4/5;
     background-color: RGB(29 161 242);
     text-align: center;
 
-
 }
-
-
-
 
 footer
 {
