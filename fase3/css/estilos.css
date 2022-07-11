@@ -44,14 +44,14 @@ footer
     background-color: #FDB9FC;
 
 }
-    #tituloinicio{
-        color: #ffffff;
-        text-decoration: none;
+#tituloinicio{
+    color: #ffffff;
+    text-decoration: none;
 
-        
-    }
+    
+}
 
-    .sdotituloinicio{
+.sdotituloinicio{
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction:row;
@@ -63,31 +63,31 @@ footer
     align-items: flex-start;
     list-style: none;
 
-    }
+}
 
-    .sdotituloinicio>li{
-        float: left;
-    }
+.sdotituloinicio>li{
+    float: left;
+}
 
-    .sdotituloinicio>li{
-        float: left;
-    }
+.sdotituloinicio>li{
+    float: left;
+}
 
-    .sdotituloinicio li a{
+.sdotituloinicio li a{
     background-color: grey;
     color: black;
     text-decoration: none;
     padding: 10px 30px;
     display: block;
-    
 
-    }
 
-    .sdotituloinicio li a:hover{
-        background-color: #FDB9FC;
-    }
+}
 
-    .sdotituloinicio li ul{
+.sdotituloinicio li a:hover{
+    background-color: #FDB9FC;
+}
+
+.sdotituloinicio li ul{
     display: none;
     margin-left: auto;
     margin-right: auto;
@@ -95,25 +95,25 @@ footer
     min-width: 140px;
     list-style: none;
 
-    }
+}
 
-    .sdotituloinicio li:hover>ul{
-    display: block;
-    }
+.sdotituloinicio li:hover>ul{
+display: block;
+}
 
-    .sdotituloinicio li ul li ul{
-        right: 140px;
-    }
+.sdotituloinicio li ul li ul{
+    right: 140px;
+}
 
-    
-    .tercersubtituloinicio{
-        color: rgb(243, 243, 243);
 
-    }
+.tercersubtituloinicio{
+    color: rgb(243, 243, 243);
 
-    .linksecciones{
-        color: rgb(255, 0, 170);
-    }
+}
+
+.linksecciones{
+    color: rgb(255, 0, 170);
+}
 
 
 
