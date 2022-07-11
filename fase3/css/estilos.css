@@ -1,8 +1,23 @@
 header
 {
-    background-color: #ffffff;
+    display: flex;
+    background-color: #FDB9FC;
     text-align: center;
+    justify-content: space-between;
 
+
+}
+
+body{
+    background-color: #ED50F1;
+}
+
+#logounad1{
+    text-align: left;
+}
+
+#logounad2{
+    text-align:right;
 }
 nav
 {
@@ -20,7 +35,6 @@ section
 aside
 {
     grid-column: 4/5;
-    background-color: RGB(29 161 242);
     text-align: center;
 
 }
@@ -30,31 +44,76 @@ footer
     background-color: #FDB9FC;
 
 }
+    #tituloinicio{
+        color: #ffffff;
+        text-decoration: none;
 
+        
+    }
 
+    .sdotituloinicio{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 0px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
 
+    }
 
-                #tituloinicio{
-                    color: #ffffff;
-                    grid-column: 1/4;
-                    
-                }
+    .sdotituloinicio>li{
+        float: left;
+    }
 
-                .sdotituloinicio{
-                    color: rgb(0, 0, 0);
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                }
+    .sdotituloinicio>li{
+        float: left;
+    }
 
-                .tercersubtituloinicio{
-                    color: rgb(243, 243, 243);
+    .sdotituloinicio li a{
+    background-color: grey;
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    
 
-                }
+    }
 
-                .linksecciones{
-                    color: rgb(255, 0, 170);
-                }
+    .sdotituloinicio li a:hover{
+        background-color: #FDB9FC;
+    }
+
+    .sdotituloinicio li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+    list-style: none;
+
+    }
+
+    .sdotituloinicio li:hover>ul{
+    display: block;
+    }
+
+    .sdotituloinicio li ul li ul{
+        right: 140px;
+    }
+
+    
+    .tercersubtituloinicio{
+        color: rgb(243, 243, 243);
+
+    }
+
+    .linksecciones{
+        color: rgb(255, 0, 170);
+    }
 
 
 
