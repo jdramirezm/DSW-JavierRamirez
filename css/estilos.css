@@ -1,0 +1,38 @@
+header{
+    background-color: #FF0063;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+
+}
+
+header h3{
+    padding: 0px 20px;
+    color: #fff;
+
+
+}
+
+.fase3{
+    background-color: #66BFBF;
+    padding: 0px 20px;
+
+}
+.fase2{
+    background-color: #EAF6F6;
+    padding: 0px 20px;
+
+}
+
+.contacto{
+    background-color: #EAF6F6;
+    padding: 0px 20px;
+
+}
+
+footer{
+    background-color: #FF0063;
+    text-align: center;
+    color: #fff;
+}

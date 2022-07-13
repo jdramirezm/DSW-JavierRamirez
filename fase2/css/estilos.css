@@ -11,20 +11,24 @@ body{
 
 #tituloinicio{
     color: rgb(255, 0, 170);
+
     
 }
 
 #secinicio{
-    background-color:rgb(133, 148, 148);
+    background-color:#66BFBF;
     color: rgb(255, 255, 255);
+    padding: 0px 20px;
 }
 
 .sdotituloinicio{
     color: rgb(255, 0, 170);
+    
 }
 
 .linksecciones{
     color: rgb(255, 0, 170);
+
 }
 
 .tercersubtituloinicio{
@@ -32,12 +36,23 @@ body{
 
 }
 
+p{
+    padding: 0px 20px;
+
+}
+
 h3{
     color: darkorange;
+    padding: 0px 20px;
+
 }
     
 footer{
-    background-color: blueviolet;
+    background-color: #66BFBF;
     color: aliceblue;
+    text-align: center;
+}
+.mockup{
+    text-align: center;
 }
 
