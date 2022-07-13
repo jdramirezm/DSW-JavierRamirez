@@ -22,20 +22,22 @@ nav
 
 }
 
-h3{
+h2{
     text-align: center;
     color: rgb(255, 71, 5);
 }
 
 section
 {
-    background-color: #CAF0F8;
+    background-color: #EAF6F6;
     grid-column: 1/4;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    padding: 0px 20px;
+
 
     
 
@@ -59,11 +61,29 @@ p{
 
 
 }
+.alineartex{
+    display:flex;
+    justify-content: space-around;
+
+
+
+}
+.alineartex ul{
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
 
 aside
 {
     grid-column: 4/5;
     text-align: center;
+
+
+
+   
 
     
 
@@ -71,6 +91,11 @@ aside
 }
 aside article{
     text-align: center;
+    list-style: none;
+
+
+
+
 }
 
 footer
