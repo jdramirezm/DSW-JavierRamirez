@@ -1,19 +1,13 @@
 header
 {
     display: flex;
-    background-color: #2E0249;
+    background-color: #66BFBF;
     text-align: center;
     justify-content: space-between;
     color: #ffffff;
     padding: 0px 20px;
-
-
-
 }
 
-body{
-    background-color: #2E0249;
-}
 
 #logounad1{
     text-align: left;
@@ -24,7 +18,7 @@ body{
 }
 nav
 {
-    background-color: #000000;
+    background-color: #EAF6F6;
 
 }
 
@@ -35,7 +29,7 @@ h3{
 
 section
 {
-    background-color: #CAF0F8;
+    background-color: #EAF6F6;
     grid-column: 1/4;
     display: flex;
     justify-content: center;
@@ -81,7 +75,7 @@ aside article{
 
 footer
 {
-    background-color: #FDB9FC;
+    background-color: #66BFBF;
     text-align: center;
 
 }
@@ -115,8 +109,8 @@ footer
 }
 
 .sdotituloinicio li a{
-    background-color: #bec922;
-    color: black;
+    background-color: #FF0063;
+    color: white;
     text-decoration: none;
     padding: 10px 30px;
     display: block;
@@ -125,7 +119,7 @@ footer
 }
 
 .sdotituloinicio li a:hover{
-    background-color: #000000;
+    background-color: #66BFBF;
     color: #ffffff;
 }
 
