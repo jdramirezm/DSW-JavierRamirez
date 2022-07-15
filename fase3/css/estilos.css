@@ -22,37 +22,47 @@ nav
 
 }
 
-h2{
+
+section strong{
     text-align: center;
     color: rgb(255, 71, 5);
 }
+
+   
+
+
 
 section
 {
     background-color: #EAF6F6;
     grid-column: 1/4;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
     padding: 0px 20px;
+    text-align:justify;
 
+}
+section a{    color: rgb(255, 71, 5);
 
-    
 
 }
 
 
 
-article{
-    justify-content: space-around;
-
-
+.linea
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 }
+
+
+
+
 p{
     display:contents;
-    width: 90%;
+
     text-align:justify;
     flex-direction: column;
     justify-content: center;
