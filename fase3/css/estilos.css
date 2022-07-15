@@ -8,29 +8,26 @@ header
     padding: 0px 20px;
 }
 
-
-#logounad1{
+#logounad1
+{
     text-align: left;
 }
 
-#logounad2{
+#logounad2
+{
     text-align:right;
 }
+
 nav
 {
     background-color: #EAF6F6;
-
 }
 
-
-section strong{
+section strong
+{
     text-align: center;
     color: rgb(255, 71, 5);
 }
-
-   
-
-
 
 section
 {
@@ -41,14 +38,12 @@ section
     flex-direction: column;
     padding: 0px 20px;
     text-align:justify;
-
-}
-section a{    color: rgb(255, 71, 5);
-
-
 }
 
-
+section a
+{    
+    color: rgb(255, 71, 5);
+}
 
 .linea
 {
@@ -57,71 +52,53 @@ section a{    color: rgb(255, 71, 5);
     align-items: center;
 }
 
-
-
-
-p{
+p
+{
     display:contents;
 
     text-align:justify;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
-
 }
+
 .alineartex{
     display:flex;
     justify-content: space-around;
-
-
-
 }
-.alineartex ul{
+
+.alineartex ul
+{
     text-decoration: none;
     list-style: none;
-
-
 }
-
 
 aside
 {
     grid-column: 4/5;
     text-align: center;
-
-
-
-   
-
-    
-
-
 }
-aside article{
+
+aside article
+{
     text-align: center;
     list-style: none;
-
-
-
-
 }
 
 footer
 {
     background-color: #66BFBF;
     text-align: center;
-
 }
-#tituloinicio{
+
+#tituloinicio
+{
     color: #ffffff;
-    text-decoration: none;
-
-    
+    text-decoration: none;   
 }
 
-.sdotituloinicio{
+.sdotituloinicio
+{
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction:row;
@@ -132,28 +109,24 @@ footer
     justify-content:center;
     align-items: flex-start;
     list-style: none;
-
 }
 
-
-
-
-
-.sdotituloinicio>li{
+.sdotituloinicio>li
+{
     float: left;
 }
 
-.sdotituloinicio li a{
+.sdotituloinicio li a
+{
     background-color: #FF0063;
     color: white;
     text-decoration: none;
     padding: 10px 30px;
     display: block;
-
-
 }
 
-.sdotituloinicio li a:hover{
+.sdotituloinicio li a:hover
+{
     background-color: #66BFBF;
     color: #ffffff;
 }
@@ -165,29 +138,27 @@ footer
     position: absolute;
     min-width: 140px;
     list-style: none;
-
 }
 
-
-
-.sdotituloinicio li:hover>ul{
-display: block;
+.sdotituloinicio li:hover>ul
+{
+    display: block;
 }
 
-.sdotituloinicio li ul li ul{
+.sdotituloinicio li ul li ul
+{
     right: 140px;
 }
 
-
-.tercersubtituloinicio{
+.tercersubtituloinicio
+{
     color: rgb(243, 243, 243);
-
 }
 
-.linksecciones{
+.linksecciones
+{
     color: rgb(255, 0, 170);
 }
-
 
 main
 {
