@@ -7,11 +7,9 @@
         padding: 0px 20px;
         align-items: center;
     }
-    img{
-        
-        height: 100px;
-        width: 100px;
-        
+    img{  
+        height: 50px;
+        width: 50px;
     }
     
 }
