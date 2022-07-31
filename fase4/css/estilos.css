@@ -1,0 +1,173 @@
+header
+{
+    display: flex;
+    background-color: #66BFBF;
+    text-align: center;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 0px 20px;
+}
+
+#logounad1
+{
+    text-align: left;
+}
+
+#logounad2
+{
+    text-align:right;
+}
+
+source
+{
+    align-items: center;
+
+}
+
+nav
+{
+    background-color: #EAF6F6;
+}
+
+section strong
+{
+    text-align: center;
+    color: rgb(255, 71, 5);
+}
+
+section
+{
+    background-color: #EAF6F6;
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 20px;
+    text-align:justify;
+}
+
+section a
+{    
+    color: rgb(255, 71, 5);
+}
+
+.linea
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+p
+{
+    display:contents;
+
+    text-align:justify;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alineartex{
+    display:flex;
+    justify-content: space-around;
+}
+
+.alineartex ul
+{
+    text-decoration: none;
+    list-style: none;
+}
+
+aside
+{
+    grid-column: 4/5;
+    text-align: center;
+}
+
+aside article
+{
+    text-align: center;
+    list-style: none;
+}
+
+footer
+{
+    background-color: #66BFBF;
+    text-align: center;
+}
+
+#tituloinicio
+{
+    color: #ffffff;
+    text-decoration: none;   
+}
+
+.sdotituloinicio
+{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 0px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.sdotituloinicio>li
+{
+    float: left;
+}
+
+.sdotituloinicio li a
+{
+    background-color: #FF0063;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+}
+
+.sdotituloinicio li a:hover
+{
+    background-color: #66BFBF;
+    color: #ffffff;
+}
+
+.sdotituloinicio li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+    list-style: none;
+}
+
+.sdotituloinicio li:hover>ul
+{
+    display: block;
+}
+
+.sdotituloinicio li ul li ul
+{
+    right: 140px;
+}
+
+.tercersubtituloinicio
+{
+    color: rgb(243, 243, 243);
+}
+
+.linksecciones
+{
+    color: rgb(255, 0, 170);
+}
+
+main
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

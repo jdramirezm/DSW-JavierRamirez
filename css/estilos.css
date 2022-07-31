@@ -2,6 +2,7 @@ header{
     background-color: #FF0063;
     display: flex;
     justify-content: space-between;
+    text-align: center;
     padding: 0px 20px;
 
 
@@ -14,8 +15,14 @@ header h3{
 
 }
 
-.fase3{
+.fase4{
     background-color: #66BFBF;
+    padding: 0px 20px;
+
+}
+
+.fase3{
+    background-color: #EAF6F6;
     padding: 0px 20px;
 
 }
@@ -28,6 +35,7 @@ header h3{
 .contacto{
     background-color: #EAF6F6;
     padding: 0px 20px;
+    
 
 }
 
