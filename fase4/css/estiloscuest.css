@@ -1,4 +1,41 @@
-footer{
+@media screen and (max-width:767px) {
+    header {
+        display:flex;
+        text-align: center;
+        flex-direction: column;  
+        justify-content:center;
+        padding: 0px 20px;
+    }
+    #logounad1{
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        
+    }
+    
+}
+
+footer {
     background-color: #66BFBF;
     text-align: center;
+    color: #ffffff;
+}
+
+.sdotituloinicio li a:hover {
+    background-color: #66BFBF;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    background-color: #66BFBF;
+    text-align: center;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 0px 20px;
+}
+
+main {
+    background-color: #EAF6F6;
+
 }
